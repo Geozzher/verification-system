@@ -1,0 +1,33 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "> 1%",
+            "last 2 versions",
+            "not ie <= 8"
+          ]
+        }
+      }
+    ],
+    "stage-2"
+  ],
+  // 按需引入 
+  // ViewUI需修改成如下配置
+  // "plugins": [
+  //   "transform-vue-jsx",
+  //   "transform-runtime",
+  //   [
+  //     "import",
+  //     {
+  //       "libraryName": "view-design",
+  //       "libraryDirectory": "src/components"
+  //     }
+  //   ]
+  // ]
+  // 全局加载方式
+  "plugins": ["transform-vue-jsx", "transform-runtime"]
+}

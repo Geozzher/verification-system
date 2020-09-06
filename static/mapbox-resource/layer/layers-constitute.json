@@ -1,0 +1,128 @@
+{
+    "pois": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "tag": "String",
+        "fields": ["FID","code","fclass","name","tag"],
+        "layerType": "point"
+    },
+    "places": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "population": "Number",
+        "tag": "String",
+        "fields": ["FID","code","fclass","name","tag","population"],
+        "layerType": "point"
+    },
+    "waterways": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "width": "Number",
+        "Shape_length": "Number",
+        "fields": ["FID","code","fclass","name","width","Shape_length"],
+        "layerType": "polyline"
+    },
+    "railways": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "layer": "Number",
+        "bridge": "String",
+        "tunnel": "String",
+        "Shape_length": "Number",
+        "fields": ["FID","code","fclass","name","layer","bridge","tunnel","Shape_length"],
+        "layerType": "polyline"
+
+    },
+    "boundaries": {
+        "FID": "Number",
+        "fclass": "String",
+        "Shape_length": "Number",
+        "fields": ["FID","fclass","Shape_length"],
+        "layerType": "polyline"
+    },
+    "roads": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "layer": "Number",
+        "bridge": "String",
+        "tunnel": "String",
+        "Shape_length": "Number",
+        "ref": "String",
+        "oneway": "String",
+        "maxspeed": "Number",
+        "fields": ["FID","code","fclass","name","layer","bridge","tunnel","ref","oneway","maxspeed","Shape_length"],
+        "layerType": "polyline"
+    },
+    "water_a": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "fields": ["FID","code","fclass","name","Shape_Area","Shape_length"],
+        "layerType": "polygon"
+    },
+    "buildings_a": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "type": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "fields": ["FID","code","fclass","name","type","Shape_Area","Shape_length"],
+        "layerType": "polygon"
+    },
+    "landuse_a": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "fields": ["FID","code","fclass","name","Shape_Area","Shape_length"],
+        "layerType": "polygon"
+    },
+    "places_a": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "population": "Number",
+        "name": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "fields": ["FID","code","fclass","name","population","Shape_Area","Shape_length"],
+        "layerType": "polygon"
+    },
+    "pois_a": {
+        "FID": "Number",
+        "code": "Number",
+        "fclass": "String",
+        "name": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "tag": "String",
+        "fields": ["FID","code","fclass","name","tag","Shape_length","Shape_Area"],
+        "layerType": "polygon"
+    },
+    "regions_a": {
+        "FID": "Number",
+        "fclass": "String",
+        "fname": "String",
+        "Shape_length": "Number",
+        "Shape_Area": "Number",
+        "fields": ["FID","fclass","fname","Shape_length","Shape_Area"],
+        "layerType": "polygon"
+    }
+}
